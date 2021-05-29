@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-container{
+    width: 50vw;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container h3{
+    margin: 10px 0;
+}
+.contact-container h3 input{
+    width: 20vw;
+    height: 4vh;
+}

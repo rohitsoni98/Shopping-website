@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: darkkhaki;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    
+    font-weight: bold;
+    
+}
+.search input{
+    border-radius: 4px;   
+    width: 35vw;
+    height: 30px;   
+    margin: 0 55px;
+    padding: 0 5px;
+}
+
+.btn:hover{
+    font-weight: bold;
+}
+main{
+    background-color: oldlace;
+    margin: 2px 0;
+    
+}
+.img img{
+    width: 60vw;
+    height: auto;
+}
+.img{
+    margin: 2px auto;
+    width: 60vw;
+}
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    
+
+}
+
+.card{
+    background-color: lavender;
+    margin: auto;
+    max-width: 85vw;
+    font-family: 'Lato', sans-serif;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.card-item{
+    margin: 0 45px;
+    width: 12vw;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.lines a:hover{
+    font-weight: bold;
+
+}
+
+
+main .container{
+    min-height: calc(100vh - 60px - 7vh);
+}
+
+footer{
+    
+    height: 5vh;
+    background-color: darkkhaki;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    
+}
